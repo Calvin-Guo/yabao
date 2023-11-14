@@ -1,0 +1,129 @@
+.page {
+  background-color: rgba(247, 249, 252, 1);
+  position: relative;
+  width: 750px;
+  height: 1714px;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 3px;
+}
+
+.box_1 {
+  width: 750px;
+  background: url(/static/lanhu_tongyongyemian/SketchPng3d7307ebb6e9c63d0e09b1394fe06157277a1e3539fafb8a65dc58f7759e048f.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 14px 12px 162px;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 34px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 34px;
+  margin-top: 15px;
+}
+
+.image-wrapper_1 {
+  width: 174px;
+  background: url(/static/lanhu_tongyongyemian/SketchPngbcfcf7ecd37e5987581995e3baba14b2ddb8fad35d9865f4a5a958a3007fad54.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 13px 24px 12px 26px;
+}
+
+.image_1 {
+  width: 37px;
+  height: 13px;
+  margin: 13px 0 13px 0;
+}
+
+.label_1 {
+  width: 39px;
+  height: 39px;
+}
+
+.box_2 {
+  padding-bottom: 1169px;
+}
+
+.group_1 {
+  width: 750px;
+  background: url(/static/lanhu_tongyongyemian/SketchPng2df77b4c56b04cabb891cdbe34ca20e239efa0ef9f685fa7421a48e330ad14f7.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  justify-content: flex-center;
+  padding: 25px 32px 25px 32px;
+}
+
+.label_2 {
+  width: 23px;
+  height: 40px;
+  margin: 5px 0 3px 0;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 34px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 48px;
+  margin-left: 218px;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 34px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 48px;
+  margin-left: 105px;
+}
+
+.text-wrapper_1 {
+  width: 650px;
+  height: 144px;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36px;
+  margin: 57px 48px 0 52px;
+}
+
+.paragraph_1 {
+  width: 650px;
+  height: 144px;
+  overflow-wrap: break-word;
+  color: rgba(53, 53, 53, 1);
+  font-size: 28px;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36px;
+}
+
+.text_4 {
+  width: 650px;
+  height: 144px;
+  overflow-wrap: break-word;
+  color: rgba(107, 117, 255, 1);
+  font-size: 28px;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36px;
+}
+
+.image_2 {
+  width: 750px;
+  height: 68px;
+  margin-top: -1px;
+}

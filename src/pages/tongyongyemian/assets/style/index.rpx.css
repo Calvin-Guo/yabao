@@ -1,0 +1,129 @@
+.page {
+  background-color: rgba(247, 249, 252, 1);
+  position: relative;
+  width: 750rpx;
+  height: 1714rpx;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 3rpx;
+}
+
+.box_1 {
+  width: 750rpx;
+  background: url(/static/lanhu_tongyongyemian/SketchPng3d7307ebb6e9c63d0e09b1394fe06157277a1e3539fafb8a65dc58f7759e048f.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 100rpx 14rpx 12rpx 162rpx;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 34rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 34rpx;
+  margin-top: 15rpx;
+}
+
+.image-wrapper_1 {
+  width: 174rpx;
+  background: url(/static/lanhu_tongyongyemian/SketchPngbcfcf7ecd37e5987581995e3baba14b2ddb8fad35d9865f4a5a958a3007fad54.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 13rpx 24rpx 12rpx 26rpx;
+}
+
+.image_1 {
+  width: 37rpx;
+  height: 13rpx;
+  margin: 13rpx 0 13rpx 0;
+}
+
+.label_1 {
+  width: 39rpx;
+  height: 39rpx;
+}
+
+.box_2 {
+  padding-bottom: 1169rpx;
+}
+
+.group_1 {
+  width: 750rpx;
+  background: url(/static/lanhu_tongyongyemian/SketchPng2df77b4c56b04cabb891cdbe34ca20e239efa0ef9f685fa7421a48e330ad14f7.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  justify-content: flex-center;
+  padding: 25rpx 32rpx 25rpx 32rpx;
+}
+
+.label_2 {
+  width: 23rpx;
+  height: 40rpx;
+  margin: 5rpx 0 3rpx 0;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 34rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 48rpx;
+  margin-left: 218rpx;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 34rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 48rpx;
+  margin-left: 105rpx;
+}
+
+.text-wrapper_1 {
+  width: 650rpx;
+  height: 144rpx;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+  margin: 57rpx 48rpx 0 52rpx;
+}
+
+.paragraph_1 {
+  width: 650rpx;
+  height: 144rpx;
+  overflow-wrap: break-word;
+  color: rgba(53, 53, 53, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+}
+
+.text_4 {
+  width: 650rpx;
+  height: 144rpx;
+  overflow-wrap: break-word;
+  color: rgba(107, 117, 255, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+}
+
+.image_2 {
+  width: 750rpx;
+  height: 68rpx;
+  margin-top: -1rpx;
+}

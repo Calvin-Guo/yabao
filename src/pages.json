@@ -1,0 +1,76 @@
+{
+	"pages": [
+		{
+			"name": "shouye",
+			"path": "pages/shouye/index"
+		},
+		{
+			"name": "motaidanchuang",
+			"path": "pages/motaidanchuang/index"
+		},
+		{
+			"name": "haibao",
+			"path": "pages/haibao/index"
+		},
+		{
+			"name": "chaxunx2fpiliangchaxun",
+			"path": "pages/chaxunx2fpiliangchaxun/index"
+		},
+		{
+			"name": "shouyex2fxialacaidan",
+			"path": "pages/shouyex2fxialacaidan/index"
+		},
+		{
+			"name": "wode",
+			"path": "pages/wode/index"
+		},
+		{
+			"name": "xiaofeijilu",
+			"path": "pages/xiaofeijilu/index"
+		},
+		{
+			"name": "chaxunjilu",
+			"path": "pages/chaxunjilu/index"
+		},
+		{
+			"name": "tongyongyemian",
+			"path": "pages/tongyongyemian/index"
+		},
+		{
+			"name": "baogaoyemianwupingfen",
+			"path": "pages/baogaoyemianwupingfen/index"
+		},
+		{
+			"name": "baogaoyemianwupingfenwutupian",
+			"path": "pages/baogaoyemianwupingfenwutupian/index"
+		},
+		{
+			"name": "chongzhijilu",
+			"path": "pages/chongzhijilu/index"
+		},
+		{
+			"name": "chongzhidanchuang",
+			"path": "pages/chongzhidanchuang/index"
+		},
+		{
+			"name": "biaoqianlan",
+			"path": "pages/biaoqianlan/index"
+		},
+
+		{
+			"name": "baogaoyemian",
+			"path": "pages/baogaoyemian/index"
+		},
+		{
+			"name": "chaxunx2fdancichaxun",
+			"path": "pages/chaxunx2fdancichaxun/index"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,527 @@
+.page {
+  background-color: rgba(244, 244, 244, 1);
+  position: relative;
+  width: 100vw;
+  height: 362.67vw;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 11.74vw;
+  padding-bottom: 0;
+}
+
+.block_1 {
+  width: 100vw;
+  height: 11.74vw;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng8ca03be098f985e6cffe1b132194c6d45e50a26513cec7553f67884e699731e9.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.block_2 {
+  position: relative;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng6e002492f4d0beca11e8e6d58371967e105b8cba11b6a30c1c4ceeeb55ac8034.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin-top: -0.13vw;
+  padding: 3.6vw 3.2vw 15.6vw 3.2vw;
+}
+
+.block_3 {
+  width: 91.34vw;
+  margin: 0 1.2vw 0 1.06vw;
+}
+
+.label_1 {
+  width: 3.07vw;
+  height: 5.34vw;
+  margin: 0.53vw 0 0.53vw 0;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6.4vw;
+}
+
+.block_4 {
+  width: 92.54vw;
+  margin: 6.4vw 0 0 1.06vw;
+}
+
+.group_1 {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 8px 0px 0px 8px;
+  width: 1.07vw;
+  height: 18.94vw;
+  margin-bottom: 0.4vw;
+}
+
+.text-group_1 {
+  margin-top: 0.27vw;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 5.33vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 5.34vw;
+  margin-right: 56vw;
+}
+
+.text_3 {
+  width: 88vw;
+  height: 10.67vw;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.34vw;
+  margin-top: 3.07vw;
+}
+
+.text-wrapper_1 {
+  background-color: rgba(239, 241, 244, 1);
+  border-radius: 0px 16px 0px 0px;
+  margin: 6.26vw 47.2vw 0 0;
+  padding: 2.8vw 15.73vw 3.6vw 15.73vw;
+}
+
+.text_4 {
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 5.34vw;
+}
+
+.block_5 {
+  position: absolute;
+  left: 43.74vw;
+  top: 40.67vw;
+  width: 53.07vw;
+  height: 12.8vw;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng888293673ba3c559ff2e60d5890131a217d5565e5cbc79d5c21db9f0f6fdbff0.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.93vw 7.46vw 2.53vw 21.33vw;
+}
+
+.text_5 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.26vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 6vw;
+  margin-top: 1.34vw;
+}
+
+.text-wrapper_2 {
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngfdb9a93b709765302ef90a24074bdf9a8c5977927b11fad4839e45124534f03d.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin: 0 0 3.86vw -0.26vw;
+}
+
+.text_6 {
+  height: 3.34vw;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.4vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.34vw;
+  margin: -0.13vw 0.8vw 0.26vw 1.06vw;
+}
+
+.block_6 {
+  position: relative;
+  padding: 48.4vw 2.53vw 5.2vw 4.53vw;
+}
+
+.text_7 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 3.73vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 5.34vw;
+  margin-right: 74.27vw;
+}
+
+.box_1 {
+  width: 92.54vw;
+  margin: 1.06vw 0 0 0.4vw;
+}
+
+.text-wrapper_3 {
+  margin: 1.06vw 0 0.13vw 0;
+}
+
+.text_8 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin-right: 0.67vw;
+}
+
+.text_9 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin-top: 8.27vw;
+}
+
+.text_10 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin-top: 2.94vw;
+}
+
+.text-wrapper_4 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text_11 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.46vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text_12 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 3.46vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.paragraph_1 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.46vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.paragraph_2 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text_13 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(250, 98, 98, 1);
+  font-size: 4.26vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text_14 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.46vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text_15 {
+  width: 88.94vw;
+  height: 25.6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 5.6vw;
+}
+
+.text-wrapper_5 {
+  width: 50.54vw;
+  height: 6vw;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin: 6vw 21.86vw 0 20.53vw;
+}
+
+.text_16 {
+  height: 6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+}
+
+.text_17 {
+  height: 6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 4.26vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+}
+
+.text_18 {
+  height: 6vw;
+  overflow-wrap: break-word;
+  color: rgba(94, 94, 94, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+}
+
+.text-wrapper_6 {
+  border-radius: 18px;
+  height: 4.8vw;
+  border: 1px solid rgba(72, 153, 245, 1);
+  width: 16.8vw;
+  position: absolute;
+  left: 73.07vw;
+  top: 75.74vw;
+  padding: 0.4vw 2.26vw 0.93vw 1.46vw;
+}
+
+.text_19 {
+  overflow-wrap: break-word;
+  color: rgba(72, 153, 245, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+}
+
+.text-wrapper_7 {
+  background-color: rgba(216, 216, 216, 1);
+  border-radius: 8px;
+  border: 1px solid rgba(151, 151, 151, 1);
+  margin: -0.13vw 4.53vw 0 3.33vw;
+  padding: 63.33vw 34.13vw 89.46vw 34.26vw;
+}
+
+.text_20 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 5.86vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 8.27vw;
+}
+
+.image-wrapper_1 {
+  padding: 3.2vw 32.13vw 6.8vw 32.13vw;
+}
+
+.image_1 {
+  width: 35.74vw;
+  height: 1.34vw;
+}
+
+.block_7 {
+  background-color: rgba(26, 130, 226, 0.1);
+  height: 23.47vw;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.section_1 {
+  width: 100vw;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng3d7307ebb6e9c63d0e09b1394fe06157277a1e3539fafb8a65dc58f7759e048f.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 13.33vw 1.86vw 1.6vw 21.6vw;
+}
+
+.text_21 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.54vw;
+  margin-top: 2vw;
+}
+
+.image-wrapper_2 {
+  width: 23.2vw;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngbcfcf7ecd37e5987581995e3baba14b2ddb8fad35d9865f4a5a958a3007fad54.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 1.73vw 3.2vw 1.6vw 3.46vw;
+}
+
+.image_2 {
+  width: 4.94vw;
+  height: 1.74vw;
+  margin: 1.73vw 0 1.73vw 0;
+}
+
+.label_2 {
+  width: 5.2vw;
+  height: 5.2vw;
+}
+
+.block_8 {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px 0px 16px 16px;
+  position: absolute;
+  left: 3.2vw;
+  top: 76.8vw;
+  width: 93.6vw;
+  height: 60.14vw;
+  padding: 2.93vw 3.46vw 3.86vw 3.6vw;
+}
+
+.text-wrapper_8 {
+  background-color: rgba(239, 241, 244, 1);
+  border-radius: 8px;
+  margin-right: 0.14vw;
+  padding: 3.2vw 56vw 14.93vw 4.8vw;
+}
+
+.text_22 {
+  overflow-wrap: break-word;
+  color: rgba(178, 178, 178, 1);
+  font-size: 4.26vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6vw;
+}
+
+.text_23 {
+  overflow-wrap: break-word;
+  color: rgba(178, 178, 178, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin: 2.13vw 44vw 0 0.4vw;
+}
+
+.group_2 {
+  width: 86.54vw;
+  margin-top: 1.6vw;
+}
+
+.text-wrapper_9 {
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngfae4a964267bbeb219b08431d9d9878ad26d2f2b5ef8f590b94e492056bf64e7.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 3.46vw 14.66vw 4.66vw 14.26vw;
+}
+
+.text_24 {
+  overflow-wrap: break-word;
+  color: rgba(18, 18, 18, 1);
+  font-size: 4.26vw;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 4.4vw;
+}
+
+.text-wrapper_10 {
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngd85bc9d08a4c2007705bc9d4a1c6a90ad3540cd37369022057bf1bc1df57cd1a.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.4vw 16.4vw 4.13vw 16.4vw;
+}
+
+.text_25 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4.26vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6vw;
+}
+
+.text_26 {
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 5.34vw;
+  margin: 3.2vw 4.93vw 0 0.13vw;
+}

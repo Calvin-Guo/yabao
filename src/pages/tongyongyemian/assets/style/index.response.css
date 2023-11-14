@@ -1,0 +1,129 @@
+.page {
+  background-color: rgba(247, 249, 252, 1);
+  position: relative;
+  width: 100vw;
+  height: 228.54vw;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0.4vw;
+}
+
+.box_1 {
+  width: 100vw;
+  background: url(/static/lanhu_tongyongyemian/SketchPng3d7307ebb6e9c63d0e09b1394fe06157277a1e3539fafb8a65dc58f7759e048f.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 13.33vw 1.86vw 1.6vw 21.6vw;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.54vw;
+  margin-top: 2vw;
+}
+
+.image-wrapper_1 {
+  width: 23.2vw;
+  background: url(/static/lanhu_tongyongyemian/SketchPngbcfcf7ecd37e5987581995e3baba14b2ddb8fad35d9865f4a5a958a3007fad54.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 1.73vw 3.2vw 1.6vw 3.46vw;
+}
+
+.image_1 {
+  width: 4.94vw;
+  height: 1.74vw;
+  margin: 1.73vw 0 1.73vw 0;
+}
+
+.label_1 {
+  width: 5.2vw;
+  height: 5.2vw;
+}
+
+.box_2 {
+  padding-bottom: 155.87vw;
+}
+
+.group_1 {
+  width: 100vw;
+  background: url(/static/lanhu_tongyongyemian/SketchPng2df77b4c56b04cabb891cdbe34ca20e239efa0ef9f685fa7421a48e330ad14f7.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  justify-content: flex-center;
+  padding: 3.33vw 4.26vw 3.33vw 4.26vw;
+}
+
+.label_2 {
+  width: 3.07vw;
+  height: 5.34vw;
+  margin: 0.66vw 0 0.4vw 0;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6.4vw;
+  margin-left: 29.07vw;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6.4vw;
+  margin-left: 14vw;
+}
+
+.text-wrapper_1 {
+  width: 86.67vw;
+  height: 19.2vw;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 4.8vw;
+  margin: 7.6vw 6.4vw 0 6.93vw;
+}
+
+.paragraph_1 {
+  width: 86.67vw;
+  height: 19.2vw;
+  overflow-wrap: break-word;
+  color: rgba(53, 53, 53, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 4.8vw;
+}
+
+.text_4 {
+  width: 86.67vw;
+  height: 19.2vw;
+  overflow-wrap: break-word;
+  color: rgba(107, 117, 255, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 4.8vw;
+}
+
+.image_2 {
+  width: 100vw;
+  height: 9.07vw;
+  margin-top: -0.13vw;
+}

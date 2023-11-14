@@ -1,0 +1,654 @@
+.page {
+  background-color: rgba(247, 249, 252, 1);
+  position: relative;
+  width: 750rpx;
+  height: 1625rpx;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 1rpx;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block_1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 1624rpx;
+  padding-top: 329rpx;
+}
+
+.group_1 {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  align-self: center;
+  width: 640rpx;
+  padding: 227rpx 0 44rpx 31rpx;
+}
+
+.section_1 {
+  margin: 0 194rpx 0 2rpx;
+}
+
+.text-wrapper_1 {
+  width: 413rpx;
+  height: 45rpx;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.text_1 {
+  height: 45rpx;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.text_2 {
+  height: 45rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 87, 0, 1);
+  font-size: 32rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.text_3 {
+  height: 45rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 87, 0, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.text_4 {
+  height: 45rpx;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.section_2 {
+  margin: 16rpx -74rpx 0 1rpx;
+}
+
+.group_2 {
+  background-color: rgba(255, 250, 240, 1);
+  border-radius: 8px;
+  border: 2px solid rgba(255, 150, 50, 1);
+  padding: 42rpx 0 0 36rpx;
+}
+
+.text-wrapper_2 {
+  width: 50rpx;
+  margin-right: 26rpx;
+}
+
+.text_5 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 56rpx;
+}
+
+.text_6 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 33rpx;
+  margin-top: 13rpx;
+}
+
+.image-wrapper_1 {
+  margin: 42rpx 0 0 42rpx;
+}
+
+.label_1 {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.group_3 {
+  background-color: rgba(242, 245, 247, 1);
+  border-radius: 8px;
+  margin-left: 12rpx;
+}
+
+.text-wrapper_3 {
+  background-color: rgba(255, 140, 0, 1);
+  border-radius: 0px 8px 0px 16px;
+  margin-left: 79rpx;
+  padding: 1rpx 8rpx 1rpx 8rpx;
+}
+
+.text_7 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20rpx;
+  letter-spacing: 0.12727266550064087px;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+}
+
+.text-group_1 {
+  position: relative;
+  margin: 3rpx 32rpx 0 33rpx;
+  padding: 0 27rpx 23rpx 4rpx;
+}
+
+.text_8 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 56rpx;
+}
+
+.text_9 {
+  position: absolute;
+  left: 0;
+  top: 49rpx;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 22rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30rpx;
+}
+
+.text_10 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 33rpx;
+  margin: -66rpx 34rpx 0 79rpx;
+}
+
+.text-wrapper_4 {
+  background-color: rgba(249, 230, 180, 1);
+  border-radius: 0px 0px 8px 8px;
+  margin-top: 48rpx;
+  padding: 9rpx 28rpx 12rpx 29rpx;
+}
+
+.text_11 {
+  overflow-wrap: break-word;
+  color: rgba(189, 110, 0, 1);
+  font-size: 20rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+}
+
+.group_4 {
+  background-color: rgba(242, 245, 247, 1);
+  border-radius: 8px;
+  margin-left: 12rpx;
+  padding-top: 33rpx;
+}
+
+.text-group_2 {
+  position: relative;
+  width: 85rpx;
+  align-self: center;
+  padding: 0 30rpx 23rpx 7rpx;
+}
+
+.text_12 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 56rpx;
+}
+
+.text_13 {
+  position: absolute;
+  left: 0;
+  top: 49rpx;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 22rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30rpx;
+}
+
+.text_14 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 33rpx;
+  margin: -66rpx 30rpx 0 83rpx;
+}
+
+.text-wrapper_5 {
+  background-color: rgba(249, 230, 180, 1);
+  border-radius: 0px 0px 8px 8px;
+  margin-top: 48rpx;
+  padding: 9rpx 28rpx 12rpx 29rpx;
+}
+
+.text_15 {
+  overflow-wrap: break-word;
+  color: rgba(189, 110, 0, 1);
+  font-size: 20rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+}
+
+.group_5 {
+  background-color: rgba(242, 245, 247, 1);
+  border-radius: 8px;
+  margin-left: 12rpx;
+  padding-top: 33rpx;
+}
+
+.text-group_3 {
+  margin: 0 25rpx 0 24rpx;
+}
+
+.text_16 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 56rpx;
+  margin-right: 22rpx;
+}
+
+.text_17 {
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 22rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30rpx;
+  margin: -7rpx 0 0 3rpx;
+}
+
+.text_18 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 33rpx;
+  margin: -66rpx 22rpx 0 91rpx;
+}
+
+.text-wrapper_6 {
+  background-color: rgba(249, 230, 180, 1);
+  border-radius: 0px 0px 8px 8px;
+  margin-top: 48rpx;
+  padding: 9rpx 28rpx 12rpx 29rpx;
+}
+
+.text_19 {
+  overflow-wrap: break-word;
+  color: rgba(189, 110, 0, 1);
+  font-size: 20rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+}
+
+.image-text_1 {
+  position: relative;
+  margin-left: 12rpx;
+  padding: 30rpx 0 12rpx 24rpx;
+}
+
+.text-group_4 {
+}
+
+.text_20 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 40rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 56rpx;
+  margin-right: 11rpx;
+}
+
+.text_21 {
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 22rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30rpx;
+  margin: -7rpx 0 0 13rpx;
+}
+
+.text_22 {
+  overflow-wrap: break-word;
+  color: rgba(189, 110, 0, 1);
+  font-size: 20rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+  margin: 27rpx 2rpx 0 14rpx;
+}
+
+.section_3 {
+  background-color: rgba(242, 245, 247, 1);
+  border-radius: 8px;
+  height: 176rpx;
+  padding-top: 127rpx;
+  width: 35rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.box_1 {
+  background-color: rgba(249, 230, 180, 1);
+  border-radius: 0px 0px 8px 8px;
+  width: 35rpx;
+  height: 49rpx;
+}
+
+.text_23 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20rpx;
+  letter-spacing: 0.12727266550064087px;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 28rpx;
+  margin: 1rpx 0 0 6rpx;
+}
+
+.text-wrapper_7 {
+  margin: 24rpx 468rpx 0 1rpx;
+}
+
+.text_24 {
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.section_4 {
+  width: 576rpx;
+  margin: 16rpx 32rpx 0 1rpx;
+}
+
+.box_2 {
+  border-radius: 8px;
+  border: 1px solid rgba(180, 180, 180, 1);
+  padding: 16rpx 62rpx 16rpx 64rpx;
+}
+
+.image-text_2 {
+  width: 152rpx;
+}
+
+.label_2 {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.text-group_5 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 20rpx;
+  margin-top: 12rpx;
+}
+
+.box_3 {
+  border-radius: 8px;
+  width: 280rpx;
+  border: 1px solid rgba(255, 150, 50, 1);
+  padding: 18rpx 0 0 47rpx;
+}
+
+.label_3 {
+  width: 43rpx;
+  height: 40rpx;
+  margin-bottom: 19rpx;
+}
+
+.image-text_3 {
+  width: 175rpx;
+  margin-top: 10rpx;
+}
+
+.text-group_6 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32rpx;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 20rpx;
+}
+
+.label_4 {
+  width: 34rpx;
+  height: 34rpx;
+  margin-top: 15rpx;
+}
+
+.section_5 {
+  margin: 24rpx 20rpx 0 0;
+}
+
+.text-group_7 {
+}
+
+.text_25 {
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 40rpx;
+  margin: 0 448rpx 0 1rpx;
+}
+
+.text-wrapper_8 {
+  width: 589rpx;
+  height: 81rpx;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+  margin-top: 6rpx;
+}
+
+.paragraph_1 {
+  width: 589rpx;
+  height: 81rpx;
+  overflow-wrap: break-word;
+  color: rgba(166, 166, 166, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+}
+
+.text_26 {
+  width: 589rpx;
+  height: 81rpx;
+  overflow-wrap: break-word;
+  color: rgba(166, 166, 166, 1);
+  font-size: 24rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: left;
+  line-height: 36rpx;
+}
+
+.text_27 {
+  width: 589rpx;
+  height: 81rpx;
+  overflow-wrap: break-word;
+  color: rgba(166, 166, 166, 1);
+  font-size: 24rpx;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 36rpx;
+}
+
+.section_6 {
+  margin: 35rpx 67rpx 0 35rpx;
+}
+
+.text-wrapper_9 {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 49px;
+  padding: 21rpx 181rpx 27rpx 182rpx;
+}
+
+.text_28 {
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 36rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 50rpx;
+}
+
+.image-wrapper_2 {
+  padding: 40rpx 349rpx 254rpx 349rpx;
+}
+
+.image_1 {
+  width: 52rpx;
+  height: 52rpx;
+}
+
+.group_6 {
+  background-image: url(/static/lanhu_chongzhidanchuang/50ff8159c42e4f9e8bb995a152c01480_mergeImage.png);
+  position: absolute;
+  left: 55rpx;
+  top: 311rpx;
+  width: 640rpx;
+  height: 240rpx;
+  padding: 31rpx 178rpx 21rpx 37rpx;
+}
+
+.text-group_8 {
+  margin-left: 4rpx;
+}
+
+.text_29 {
+  overflow-wrap: break-word;
+  color: rgba(155, 104, 0, 1);
+  font-size: 28rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 40rpx;
+}
+
+.text_30 {
+  overflow-wrap: break-word;
+  color: rgba(156, 101, 1, 1);
+  font-size: 30rpx;
+  letter-spacing: 0.699999988079071px;
+  font-family: AlimamaShuHeiTi-Bold;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 36rpx;
+  margin: 9rpx 130rpx 0 45rpx;
+}
+
+.text_31 {
+  overflow-wrap: break-word;
+  color: rgba(156, 101, 1, 1);
+  font-size: 30rpx;
+  letter-spacing: 0.699999988079071px;
+  font-family: AlimamaShuHeiTi-Bold;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 36rpx;
+  margin: 11rpx 91rpx 0 46rpx;
+}
+
+.text-wrapper_10 {
+  background-color: rgba(255, 198, 0, 0.54);
+  border-radius: 23px;
+  margin: 16rpx 41rpx 0 0;
+  padding: 5rpx 21rpx 5rpx 18rpx;
+}
+
+.text_32 {
+  overflow-wrap: break-word;
+  color: rgba(197, 138, 0, 1);
+  font-size: 22rpx;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 30rpx;
+}

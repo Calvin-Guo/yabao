@@ -1,0 +1,330 @@
+.page {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 100vw;
+  height: 207.74vw;
+  overflow: hidden;
+  padding: 9.46vw 0 93.2vw 0;
+}
+
+.group_1 {
+  width: 100vw;
+}
+
+.box_1 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 0.93vw 11.33vw 2.13vw 11.2vw;
+}
+
+.image_1 {
+  width: 8.67vw;
+  height: 8.67vw;
+  margin: 0 0.93vw 0 1.2vw;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(25, 31, 37, 0.4);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 0.54vw;
+}
+
+.box_2 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.4vw 11.33vw 2.13vw 11.2vw;
+}
+
+.label_1 {
+  width: 5.87vw;
+  height: 5.87vw;
+  margin: 0 2.4vw 0 2.53vw;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(25, 31, 37, 0.4);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 1.87vw;
+}
+
+.box_3 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.66vw 11.33vw 2vw 11.2vw;
+}
+
+.label_2 {
+  width: 5.87vw;
+  height: 5.6vw;
+  margin: 0 2.4vw 0 2.53vw;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(25, 31, 37, 0.4);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 2vw;
+}
+
+.group_2 {
+  position: relative;
+  width: 54.8vw;
+  align-self: center;
+  margin-top: 8.54vw;
+  padding: 0 21.06vw 0 20.93vw;
+}
+
+.text_4 {
+  overflow-wrap: break-word;
+  color: rgba(181, 181, 181, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+}
+
+.image_2 {
+  position: absolute;
+  left: 0;
+  top: 2.14vw;
+  width: 54.8vw;
+  height: 0.27vw;
+}
+
+.group_3 {
+  width: 100vw;
+  margin-top: 13.6vw;
+}
+
+.group_4 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 1.2vw 11.33vw 2.4vw 11.2vw;
+}
+
+.image-text_1 {
+}
+
+.image_3 {
+  width: 7.87vw;
+  height: 7.87vw;
+  margin: 0 1.2vw 0 1.73vw;
+}
+
+.text-group_1 {
+  overflow-wrap: break-word;
+  color: rgba(25, 31, 37, 0.4);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.6vw;
+  margin-top: 1.87vw;
+}
+
+.group_5 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.4vw 11.33vw 2.13vw 11.2vw;
+}
+
+.image-text_2 {
+}
+
+.label_3 {
+  width: 5.87vw;
+  height: 5.87vw;
+  margin: 0 2.4vw 0 2.53vw;
+}
+
+.text-group_2 {
+  overflow-wrap: break-word;
+  color: rgba(25, 31, 37, 0.4);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 1.87vw;
+}
+
+.group_6 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 1.06vw 11.33vw 2vw 11.2vw;
+}
+
+.image-text_3 {
+}
+
+.image_4 {
+  width: 8.54vw;
+  height: 8.54vw;
+  margin: 0 1.06vw 0 1.2vw;
+}
+
+.text-group_3 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 0.67vw;
+}
+
+.group_7 {
+  margin: 29.86vw 13.46vw 0 13.2vw;
+}
+
+.label_4 {
+  width: 5.47vw;
+  height: 5.47vw;
+  margin: 0.26vw 0 0.13vw 0;
+}
+
+.label_5 {
+  width: 3.07vw;
+  height: 5.34vw;
+  margin: 0.26vw 0 0.26vw 9.06vw;
+}
+
+.label_6 {
+  width: 5.74vw;
+  height: 5.47vw;
+  margin: 0.13vw 0 0.26vw 9.33vw;
+}
+
+.label_7 {
+  width: 5.87vw;
+  height: 5.87vw;
+  margin-left: 7.87vw;
+}
+
+.image-wrapper_1 {
+  background: url(/static/lanhu_biaoqianlan/e07b086fb3fc46bc8260f11c13d11340_mergeImage.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin-left: 7.87vw;
+  padding: 0.26vw 0.4vw 0.4vw 0.26vw;
+}
+
+.label_8 {
+  width: 5.2vw;
+  height: 5.2vw;
+}
+
+.label_9 {
+  width: 4.94vw;
+  height: 4.94vw;
+  margin: 0.4vw 0 0.53vw 8.26vw;
+}
+
+.image-wrapper_2 {
+  margin: 6.53vw 28.13vw 0 14.66vw;
+}
+
+.image_5 {
+  width: 3.07vw;
+  height: 2.54vw;
+  margin: 2.8vw 0 1.06vw 0;
+}
+
+.label_10 {
+  width: 2.8vw;
+  height: 2.94vw;
+  margin: 2.26vw 0 1.2vw 11.06vw;
+}
+
+.label_11 {
+  width: 6.4vw;
+  height: 6.4vw;
+  margin-left: 8.14vw;
+}
+
+.label_12 {
+  width: 5.87vw;
+  height: 5.87vw;
+  margin: 0.53vw 0 0 7.33vw;
+}
+
+.label_13 {
+  width: 3.2vw;
+  height: 3.2vw;
+  margin: 1.86vw 0 1.33vw 9.33vw;
+}
+
+.group_8 {
+  background-color: rgba(255, 255, 255, 1);
+  height: 24vw;
+  padding-bottom: 9.07vw;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 30.67vw;
+}
+
+.list_1 {
+  width: 100vw;
+  height: 14.94vw;
+  justify-content: space-between;
+}
+
+.image-text_4 {
+  background: url(/static/lanhu_biaoqianlan/SketchPngc816af145f120efb844ce02beef8d2c0951391bdc917fee3764883ec6bc46966.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.4vw 11.33vw 2.13vw 11.2vw;
+}
+
+.label_14 {
+  width: 5.87vw;
+  height: 5.87vw;
+  margin: 0 2.4vw 0 2.53vw;
+}
+
+.text-group_4 {
+  overflow-wrap: break-word;
+  font-size: 2.66vw;
+  letter-spacing: 0.12727266550064087px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.67vw;
+  margin-top: 1.87vw;
+}

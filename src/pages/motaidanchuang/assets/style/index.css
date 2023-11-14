@@ -1,0 +1,150 @@
+.page {
+  background-color: rgba(247, 249, 252, 1);
+  position: relative;
+  width: 750px;
+  height: 2305px;
+  overflow: hidden;
+}
+
+.group_1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px 55px 237px 55px;
+}
+
+.list_1 {
+  height: 2008px;
+}
+
+.list-items_1 {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  width: 640px;
+  height: 622px;
+  margin-bottom: 71px;
+  padding: 50px 0 36px 0;
+}
+
+.text_1 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 50px;
+  align-self: center;
+}
+
+.text_2 {
+  width: 542px;
+  height: 336px;
+  overflow-wrap: break-word;
+  color: rgba(68, 68, 68, 1);
+  font-size: 28px;
+  font-weight: NaN;
+  text-align: left;
+  line-height: 42px;
+  margin: 25px 42px 0 56px;
+}
+
+.section_1 {
+  background-color: rgba(229, 229, 229, 1);
+  width: 640px;
+  height: 1px;
+  margin-top: 60px;
+}
+
+.section_2 {
+  width: 498px;
+  align-self: center;
+  margin-top: 19px;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(174, 174, 174, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  margin-top: 13px;
+}
+
+.image_1 {
+  width: 1px;
+  height: 60px;
+  margin-left: 70px;
+}
+
+.text_4 {
+  overflow-wrap: break-word;
+  color: rgba(92, 155, 253, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 13px 0 0 76px;
+}
+
+.image_2 {
+  width: 1px;
+  height: 60px;
+  margin-left: 64px;
+}
+
+.text_5 {
+  overflow-wrap: break-word;
+  color: rgba(92, 155, 253, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 13px 0 0 70px;
+}
+
+.section_3 {
+  margin: 19px 119px 0 128px;
+}
+
+.text_6 {
+  overflow-wrap: break-word;
+  color: rgba(174, 174, 174, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  margin-top: 13px;
+}
+
+.image_3 {
+  width: 1px;
+  height: 60px;
+  margin-left: 120px;
+}
+
+.text_7 {
+  overflow-wrap: break-word;
+  color: rgba(92, 155, 253, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  margin: 13px 0 0 128px;
+}
+
+.text_8 {
+  overflow-wrap: break-word;
+  color: rgba(92, 155, 253, 1);
+  font-size: 36px;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 32px;
+  align-self: center;
+  margin-top: 32px;
+}
