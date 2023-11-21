@@ -2,9 +2,9 @@
   background-color: rgba(244, 244, 244, 1);
   position: relative;
   width: 100vw;
-  height: 223.74vw;
   overflow: hidden;
-  padding: 11.73vw 0 4.93vw 0;
+  padding: 0 0 4.93vw 0;
+  min-height: 216vw;
 }
 
 .box_1 {
@@ -53,7 +53,6 @@
 
 .text_3 {
   width: 92vw;
-  height: 10.67vw;
   overflow-wrap: break-word;
   color: rgba(0, 0, 0, 1);
   font-size: 3.73vw;
@@ -120,7 +119,7 @@
 .box_5 {
   position: absolute;
   left: 3.47vw;
-  top: 40.27vw;
+  top: 17.27vw;
   width: 92vw;
   height: 161.47vw;
   background: url(/static/lanhu_baogaoyemian/SketchPng8d7316bd4dfa12d7673cb896da7dcfdc8aee3bf14eaf2256ed1af2e743481462.png)

@@ -74,5 +74,5 @@ export default {
 </script>
 <style lang='css'>
 @import '../common/common.css';
-@import './assets/style/index.rpx.css';
+@import './assets/style/index.css';
 </style>

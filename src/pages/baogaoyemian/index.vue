@@ -1,40 +1,21 @@
 <template>
   <view class="page flex-col">
-    <view class="box_1 flex-col"></view>
+  
     <view class="box_2 flex-row">
       <image
         class="label_1"
         referrerpolicy="no-referrer"
         src="/static/lanhu_baogaoyemian/SketchPngdd209c8d029b54a275b51346e2e0f980ec63cd4475e2efcdad34b9bde0ca0647.png"
+		@click="goBack"
       />
       <text class="text_1">验机报告</text>
-      <text class="text_2">返回首页</text>
+      <text class="text_2" @click="goHome">返回首页</text>
     </view>
     <text class="text_3">
       备注文案：免费查询基础数据，精确鉴定请使用苹果GSX验机报告，支持苹果所有设备
     </text>
-    <image
-      class="image_1"
-      referrerpolicy="no-referrer"
-      src="/static/lanhu_baogaoyemian/SketchPngec7e3adc86c528c1a3983fdf69a84d1b3e28c2ab0dd4c05e9757c56f2e63242b.png"
-    />
-    <view class="box_3 flex-col">
-      <view class="box_4 flex-row justify-between">
-        <text class="text_4">鸭宝查询&nbsp;手机验机鉴定…</text>
-        <view class="image-wrapper_1 flex-row justify-between">
-          <image
-            class="image_2"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_baogaoyemian/SketchPnga553a8c46964d2453f188c7e9e85839b5b44b4c97cbd16de7cc424a524718841.png"
-          />
-          <image
-            class="label_2"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_baogaoyemian/SketchPngb26488a473f0c772a7a57d0fa2ea72b9e915dd4929351907e6681ffff8b45a0e.png"
-          />
-        </view>
-      </view>
-    </view>
+   
+    
     <view class="box_5 flex-col">
       <view class="text-wrapper_1 flex-row justify-between">
         <text class="text_5">验机总分</text>
@@ -153,10 +134,21 @@ export default {
       constants: {}
     };
   },
-  methods: {}
+  methods: {
+	  goBack(){
+	  		  uni.navigateBack({
+	  		  	
+	  		  })
+	  },
+	  goHome(){
+	  		  uni.switchTab({
+	  		  	url:"/pages/shouye/index"
+	  		  })
+	  },
+  }
 };
 </script>
 <style lang='css'>
 @import '../common/common.css';
-@import './assets/style/index.rpx.css';
+@import './assets/style/index.response.css';
 </style>

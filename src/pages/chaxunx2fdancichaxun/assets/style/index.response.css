@@ -2,21 +2,12 @@
   background-color: rgba(244, 244, 244, 1);
   position: relative;
   width: 100vw;
-  height: 362.67vw;
   overflow: hidden;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 11.74vw;
   padding-bottom: 0;
 }
 
-.group_1 {
-  width: 100vw;
-  height: 11.74vw;
-  background: url(/static/lanhu_chaxunx2fdancichaxun/SketchPng8ca03be098f985e6cffe1b132194c6d45e50a26513cec7553f67884e699731e9.png)
-    100% no-repeat;
-  background-size: 100% 100%;
-}
 
 .group_2 {
   background: url(/static/lanhu_chaxunx2fdancichaxun/SketchPng6e002492f4d0beca11e8e6d58371967e105b8cba11b6a30c1c4ceeeb55ac8034.png)
@@ -24,7 +15,7 @@
   background-size: 100% 100%;
   margin-top: -0.13vw;
   position: relative;
-  padding: 3.6vw 3.2vw 15.6vw 4.26vw;
+  padding: 3.6vw 2vw 15.6vw 3.26vw;
 }
 
 .box_1 {
@@ -92,11 +83,66 @@
 .box_3 {
   margin: 6.26vw 0 0 46.13vw;
 }
+.block_5 {
+  position: absolute;
+  left: 43.74vw;
+  top: 40.67vw;
+  width: 53.07vw;
+  height: 12.8vw;
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng888293673ba3c559ff2e60d5890131a217d5565e5cbc79d5c21db9f0f6fdbff0.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 2.93vw 7.46vw 2.53vw 21.33vw;
+}
+.text_35 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.26vw;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 6vw;
+  margin-top: 1.34vw;
+}
+.text-wrapper_12 {
+  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngfdb9a93b709765302ef90a24074bdf9a8c5977927b11fad4839e45124534f03d.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  margin: 0 0 3.86vw -0.26vw;
+}
 
+.text_36 {
+  height: 3.34vw;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.4vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.34vw;
+  margin: -0.13vw 0.8vw 0.26vw 1.06vw;
+}
+.text-wrapper_13 {
+  background-color: rgba(239, 241, 244, 1);
+  border-radius:16px 0px 0px 0px ;
+  margin: -0.5vw 47.2vw 0 0;
+  padding: 3.8vw 15.73vw 3.6vw 15.73vw;
+}
+
+.text_42 {
+  overflow-wrap: break-word;
+  color: rgba(102, 102, 102, 1);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 5.34vw;
+}
 .section_1 {
   background-color: rgba(239, 241, 244, 1);
   border-radius: 0px 16px 0px 0px;
-  width: 46.4vw;
+  width: 47.6vw;
   padding: 1.6vw 7.46vw 3.46vw 15.73vw;
 }
 
@@ -230,7 +276,7 @@
 .group_6 {
   position: absolute;
   left: 0;
-  top: 92.67vw;
+  top: 68.67vw;
   width: 100vw;
   height: 86.94vw;
   padding: 37.73vw 2.53vw 5.2vw 4.53vw;
@@ -431,7 +477,6 @@
   left: 3.2vw;
   top: -15.86vw;
   width: 93.6vw;
-  height: 49.47vw;
   padding: 2.93vw 3.46vw 3.86vw 3.6vw;
 }
 
@@ -439,12 +484,11 @@
   background-color: rgba(239, 241, 244, 1);
   border-radius: 8px;
   margin-right: 0.14vw;
-  padding: 3.2vw 56vw 3.33vw 4.8vw;
+  padding: 3.2vw 6vw 3.33vw 4.8vw;
 }
 
 .text_21 {
   overflow-wrap: break-word;
-  color: rgba(178, 178, 178, 1);
   font-size: 4.26vw;
   font-weight: NaN;
   text-align: left;
@@ -475,7 +519,7 @@
   padding: 3.46vw 14.66vw 4.66vw 14.26vw;
 }
 
-.text_23 {
+.text_35 {
   overflow-wrap: break-word;
   color: rgba(18, 18, 18, 1);
   font-size: 4.26vw;
@@ -520,7 +564,7 @@
   width: 16.8vw;
   position: absolute;
   left: 73.07vw;
-  top: 65.07vw;
+  top: 66.4vw;
   padding: 0.4vw 2.26vw 0.93vw 1.46vw;
 }
 

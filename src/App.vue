@@ -1,5 +1,7 @@
 <script>
+	import pageAnimation from './components/Michael-pageAnimationPlus'
 	export default {
+		mixins: [pageAnimation],
 		onLaunch: function() {
 			console.log('App Launch')
 		},

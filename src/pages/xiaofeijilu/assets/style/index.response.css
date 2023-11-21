@@ -2,7 +2,7 @@
   background-color: rgba(247, 249, 252, 1);
   position: relative;
   width: 100vw;
-  height: 228.54vw;
+  height: 216vw;
   overflow: hidden;
   padding-left: 0;
   padding-right: 0;
@@ -88,7 +88,6 @@
   color: rgba(0, 0, 0, 1);
   font-size: 4.26vw;
   font-family: PingFangSC-Semibold;
-  font-weight: 600;
   text-align: center;
   white-space: nowrap;
   line-height: 6vw;
@@ -104,7 +103,6 @@
   overflow-wrap: break-word;
   color: rgba(11, 11, 11, 1);
   font-size: 4.26vw;
-  font-weight: NaN;
   text-align: center;
   white-space: nowrap;
   line-height: 6vw;
@@ -112,7 +110,8 @@
 }
 
 .group_4 {
-  margin: 2.53vw 65.33vw 0 15.46vw;
+  margin: 2.53vw 0 0 15.46vw;
+  transition: all 0.5s;
 }
 
 .box_3 {
@@ -136,57 +135,8 @@
   margin-bottom: 1.07vw;
 }
 
-.text_5 {
-  width: 60.14vw;
-  height: 11.47vw;
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 1);
-  font-size: 3.73vw;
-  font-family: PingFangSC-Medium;
-  font-weight: 500;
-  text-align: left;
-  line-height: 5.74vw;
-}
 
-.text_6 {
-  overflow-wrap: break-word;
-  color: rgba(102, 102, 102, 0.96);
-  font-size: 3.2vw;
-  font-weight: NaN;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 3.2vw;
-  margin: 1.46vw 28vw 0 0;
-}
 
-.image_3 {
-  width: 0.27vw;
-  height: 17.2vw;
-  margin-left: 3.07vw;
-}
-
-.text_7 {
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 1);
-  font-size: 4.8vw;
-  font-family: Avenir-Heavy;
-  font-weight: 900;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 4.8vw;
-  margin: 5.86vw 0 0 7.6vw;
-}
-
-.text_8 {
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 3.2vw;
-  font-weight: NaN;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 3.2vw;
-  margin: 6.4vw 0 0 0.53vw;
-}
 
 .list_1 {
   width: 93.6vw;
@@ -293,4 +243,95 @@
   width: 100vw;
   height: 9.07vw;
   margin-top: -0.13vw;
+}
+
+.xfjl{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	transition: all .5s;
+	height: 190vw;
+	overflow-y: scroll;
+}
+.czjl{
+	position: absolute;
+	width: 100vw;
+	bottom: 0;
+	transition: all .5s;
+	height: 190vw;
+	overflow-y: scroll;
+}
+
+.group_9 {
+  background: url(/static/lanhu_chongzhijilu/SketchPng6d58ab8f53e06b0d20b8f633f302a2721e639a4839f7d2933a22c6087750de63.png) -7.2vw -7.2vw
+    no-repeat;
+  background-size: 105.86vw 88.66vw;
+  align-self: center;
+  margin-top: 4.27vw;
+  width: 91.47vw;
+  padding: 1.33vw 4.26vw 7.6vw 2.8vw;
+}
+
+.list_2 {
+  height: 65.34vw;
+}
+
+.list-items_2 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 4vw 0 0.13vw 1.46vw;
+}
+
+.text-wrapper_1 {
+  margin-right: 6.67vw;
+}
+
+.text_5 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 0.96);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin-top: 0.8vw;
+}
+
+.text_6 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.96);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin: 0.8vw 0 0 13.46vw;
+}
+
+.text_7 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.8vw;
+  font-family: Avenir-Heavy;
+  font-weight: 900;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.8vw;
+  margin-left: 8.54vw;
+}
+
+.text_8 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin: 0.53vw 0 0 0.8vw;
+}
+
+.image_3 {
+  width: 82.94vw;
+  height: 0.14vw;
+  margin-top: 4vw;
 }

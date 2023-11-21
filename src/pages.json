@@ -3,67 +3,53 @@
 		{
 			"name": "shouye",
 			"path": "pages/shouye/index"
+			
 		},
-		{
-			"name": "motaidanchuang",
-			"path": "pages/motaidanchuang/index"
-		},
+
 		{
 			"name": "haibao",
 			"path": "pages/haibao/index"
+			
 		},
-		{
-			"name": "chaxunx2fpiliangchaxun",
-			"path": "pages/chaxunx2fpiliangchaxun/index"
-		},
-		{
-			"name": "shouyex2fxialacaidan",
-			"path": "pages/shouyex2fxialacaidan/index"
-		},
+		
+		
 		{
 			"name": "wode",
 			"path": "pages/wode/index"
+			
 		},
 		{
 			"name": "xiaofeijilu",
 			"path": "pages/xiaofeijilu/index"
+			
 		},
 		{
 			"name": "chaxunjilu",
 			"path": "pages/chaxunjilu/index"
-		},
-		{
-			"name": "tongyongyemian",
-			"path": "pages/tongyongyemian/index"
-		},
-		{
-			"name": "baogaoyemianwupingfen",
-			"path": "pages/baogaoyemianwupingfen/index"
-		},
-		{
-			"name": "baogaoyemianwupingfenwutupian",
-			"path": "pages/baogaoyemianwupingfenwutupian/index"
+			
 		},
 		{
 			"name": "chongzhijilu",
 			"path": "pages/chongzhijilu/index"
+			
 		},
-		{
-			"name": "chongzhidanchuang",
-			"path": "pages/chongzhidanchuang/index"
-		},
-		{
-			"name": "biaoqianlan",
-			"path": "pages/biaoqianlan/index"
-		},
-
 		{
 			"name": "baogaoyemian",
 			"path": "pages/baogaoyemian/index"
+			
 		},
 		{
 			"name": "chaxunx2fdancichaxun",
 			"path": "pages/chaxunx2fdancichaxun/index"
+			
+		},
+		{
+			"name": "shezhi",
+			"path": "pages/shezhi/index"
+		},
+		{
+			"name": "bizhi",
+			"path": "pages/bizhi/index"
 		}
 	],
 	"globalStyle": {
@@ -71,6 +57,39 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"animationType": "fade-in"
+		}
+	},
+	"tabBar": {
+			"color": "rgba(25,31,37,0.4)",
+			"selectedColor": "#000000",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"height": "15vw",
+			"fontSize": "10px",
+			"iconWidth": "24px",
+			"spacing": "3px",
+			
+			"list": [{
+				"pagePath": "pages/shouye/index",
+				"iconPath": "static/lanhu_wode/SketchPng6ce81d6f524e2048827552e6cc63a22bc507efe38c75a7cd63a660accdd7efb4.png",
+				"selectedIconPath": "static/lanhu_shouyex2fxialacaidan/bec7a1cc4e724464b3db4fb402df5114_mergeImage.png",
+				"text": "查验首页",
+	      		"iconfont": { // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+	       			"text": "\ue102",
+	        		"selectedText": "\ue103",
+	        		"fontSize": "17px",
+	        		"color": "#000000",
+	        		"selectedColor": "#0000ff"
+	      		}
+			}, {
+				"pagePath": "pages/wode/index",
+				"iconPath": "static/lanhu_biaoqianlan/SketchPng1996d68c62906ded8d449a15ab8f1b951759416dd1bb9effb38a142d051dda19.png",
+				"selectedIconPath": "static/lanhu_biaoqianlan/b918205737864b2fb57144a55f3da4c7_mergeImage.png",
+				"text": "会员中心"
+			}]
+			
+		}
 }

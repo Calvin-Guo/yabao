@@ -8,11 +8,13 @@
           class="label_1"
           referrerpolicy="no-referrer"
           src="/static/lanhu_wode/SketchPngdd209c8d029b54a275b51346e2e0f980ec63cd4475e2efcdad34b9bde0ca0647.png"
+		  @click="redirect()"
         />
         <image
           class="label_2"
           referrerpolicy="no-referrer"
           src="/static/lanhu_wode/SketchPng479a038380f4eaec622541f64c6b4fd5e927704841de40232f7026da7bdd8da3.png"
+		  @click="redirect('/pages/shezhi/index')"
         />
       </view>
       <view class="box_1 flex-row">
@@ -37,7 +39,7 @@
     </view>
     <view class="section_2 flex-col">
       <view class="group_2 flex-col"></view>
-      <view class="group_3 flex-row">
+      <view class="group_3 flex-row" @click="redirect('/pages/bizhi/index')">
         <text class="text_5">每日壁纸</text>
         <text class="text_6">获取每日最新壁纸</text>
         <image
@@ -65,8 +67,8 @@
             />
           </view>
         </view>
-        <view class="group_6 flex-row justify-between">
-          <view class="image-text_3 flex-row justify-between">
+        <view class="group_6 flex-row justify-between"@click="()=>{$refs.guanzhu.open();}">
+          <view class="image-text_3 flex-row justify-between" >
             <view class="image-wrapper_5 flex-col">
               <image
                 class="label_8"
@@ -115,7 +117,7 @@
           <text class="text_9">0.00</text>
           <text class="text_10">个</text>
           <text class="text_11">余额迁徙</text>
-          <view class="text-wrapper_3 flex-col">
+          <view class="text-wrapper_3 flex-col" @click='()=>{$refs.chongzhi.open()}'>
             <text class="text_12">充值</text>
           </view>
           <view class="box_3 flex-col"></view>
@@ -126,8 +128,8 @@
           referrerpolicy="no-referrer"
           src="/static/lanhu_wode/SketchPngf827c35e461dcd912d68364e5d5cd2938fa06b572b424e469cca9420be9e6673.png"
         />
-        <view class="group_10 flex-row">
-          <view class="image-text_7 flex-row justify-between">
+        <view class="group_10 flex-row" >
+          <view class="image-text_7 flex-row justify-between" @click="redirect('/pages/xiaofeijilu/index')">
             <image
               class="label_12"
               referrerpolicy="no-referrer"
@@ -140,7 +142,7 @@
             referrerpolicy="no-referrer"
             src="/static/lanhu_wode/SketchPng44ebe16656c597fdcd2e0a131f56c4b190eed1e8dc10cf357173e3da0740be30.png"
           />
-          <view class="image-text_8 flex-row justify-between">
+          <view class="image-text_8 flex-row justify-between" @click="redirect('/pages/chaxunjilu/index')">
             <image
               class="label_13"
               referrerpolicy="no-referrer"
@@ -150,49 +152,42 @@
           </view>
         </view>
       </view>
-      <view class="group_11 flex-row justify-center">
-        <view class="image-text_9 flex-col">
-          <image
-            class="image_6"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_wode/689d22689a504c2a81bfb7806cb7cfcd_mergeImage.png"
-          />
-          <text class="text-group_10">会员中心</text>
-        </view>
-      </view>
-      <view class="group_12 flex-col" @click="goHome">
-        <image
-          class="image_7"
-          referrerpolicy="no-referrer"
-          src="/static/lanhu_wode/SketchPng6ce81d6f524e2048827552e6cc63a22bc507efe38c75a7cd63a660accdd7efb4.png"
-        />
-        <text class="text_14">查验首页</text>
-      </view>
-      <view class="group_13 flex-row">
-        <view class="image-text_10 flex-col">
-          <image
-            class="image_8"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_wode/SketchPngddb1ededffc4db723277efa6ac11ee05642e77d766055dcd7f488202fb348d23.png"
-          />
-          <text class="text-group_11">联系鸭哥</text>
-        </view>
-      </view>
+      
     </view>
+	<Chongzhi ref='chongzhi'/>
+	<uni-popup ref="guanzhu" type="dialog">
+		<image
+		  src="/static/guanzhu.png"
+		  style="width: 344px;height:393px"
+		/>
+	</uni-popup-dialog>
+	</uni-popup>
   </view>
 </template>
 <script>
+	import Chongzhi from "@/pages/chongzhi/index"
 export default {
+	components:{
+		Chongzhi:Chongzhi
+	},
   data() {
     return {
       constants: {}
     };
   },
   methods: {
-	  goHome:()=>{
-		  uni.navigateTo({
-		  	url:'/pages/shouye/index'
-		  })
+	  redirect:(url)=>{
+		  if(url){
+			  uni.navigateTo({
+				url:url,
+				animationType:"pop-in"
+			  })
+		  }else{
+			  uni.navigateBack({
+			  	
+			  })
+		  }
+		  
 	  }
   }
 };

@@ -1,14 +1,15 @@
 <template>
   <view class="page flex-col">
-    <view class="group_1 flex-col"></view>
+ 
     <view class="group_2 flex-col">
       <view class="box_1 flex-row justify-between">
         <image
           class="label_1"
           referrerpolicy="no-referrer"
           src="/static/lanhu_chaxunx2fdancichaxun/SketchPngdd209c8d029b54a275b51346e2e0f980ec63cd4475e2efcdad34b9bde0ca0647.png"
+		  @click="goBack"
         />
-        <text class="text_1">返回首页</text>
+        <text class="text_1" @click="goHome">返回首页</text>
       </view>
       <view class="box_2 flex-row justify-between">
         <view class="group_3 flex-col"></view>
@@ -20,45 +21,33 @@
         </view>
       </view>
       <view class="box_3 flex-row">
-        <view class="section_1 flex-row justify-between">
+		 
+        <view v-if='!multiple' class="section_1 flex-row justify-between" @click="multiple=true">
           <text class="text_4">批量查询</text>
           <view class="text-wrapper_1 flex-col">
             <text class="text_5">NEW</text>
           </view>
         </view>
+		<view v-if='multiple' class="block_5 flex-row">
+		  <text class="text_35">批量查询</text>
+		  <view class="text-wrapper_12 flex-col">
+		    <text class="text_36">NEW</text>
+		  </view>
+		</view>
       </view>
-      <view class="text-wrapper_2 flex-col">
-        <text class="text_6">单次查询</text>
-      </view>
+	 <view v-if='multiple' class="text-wrapper_13 flex-col" @click="multiple=false">
+	   <text class="text_42">单次查询</text>
+	 </view>
+    <view v-if='!multiple' class="text-wrapper_2 flex-col" >
+       <text class="text_6">单次查询</text>
+     </view>
     </view>
-    <view class="text-wrapper_3 flex-col">
+    <view class="text-wrapper_3 flex-col" :style="{marginTop:multiple?'117vw':'85vw'}">
       <text class="text_7">图片占位</text>
     </view>
-    <view class="image-wrapper_1 flex-col">
-      <image
-        class="image_1"
-        referrerpolicy="no-referrer"
-        src="/static/lanhu_chaxunx2fdancichaxun/SketchPngec7e3adc86c528c1a3983fdf69a84d1b3e28c2ab0dd4c05e9757c56f2e63242b.png"
-      />
-    </view>
-    <view class="group_4 flex-col">
-      <view class="group_5 flex-row justify-between">
-        <text class="text_8">鸭宝查询&nbsp;手机验机鉴定…</text>
-        <view class="image-wrapper_2 flex-row justify-between">
-          <image
-            class="image_2"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_chaxunx2fdancichaxun/SketchPnga553a8c46964d2453f188c7e9e85839b5b44b4c97cbd16de7cc424a524718841.png"
-          />
-          <image
-            class="label_2"
-            referrerpolicy="no-referrer"
-            src="/static/lanhu_chaxunx2fdancichaxun/SketchPngb26488a473f0c772a7a57d0fa2ea72b9e915dd4929351907e6681ffff8b45a0e.png"
-          />
-        </view>
-      </view>
-    </view>
-    <view class="group_6 flex-col">
+   
+    
+    <view class="group_6 flex-col" :style="{paddingTop:multiple?'70vw':'38.73vw'}">
       <text class="text_9">温馨提示：</text>
       <view class="group_7 flex-row justify-between">
         <view class="text-wrapper_4 flex-col">
@@ -88,16 +77,17 @@
         <text class="text_19">示例结果</text>
         <text class="text_20">仅供查询前预览</text>
       </view>
-      <view class="group_8 flex-col">
+      <view class="group_8 flex-col" :style="{height:multiple?'82vw':'49.47vw'}">
         <view class="text-wrapper_7 flex-col">
-          <text class="text_21">请输入序列号</text>
+          <input v-if='!multiple' class="text_21" placeholder="请输入序列号"></input>
+		  <textarea v-else class="text_21" placeholder="多个序列号/IMEI请以换行隔开"></textarea>
         </view>
         <text class="text_22">*如存在多个IMEI,请输入IMEI1</text>
         <view class="box_4 flex-row justify-between">
           <view class="text-wrapper_8 flex-col">
             <text class="text_23">AI识别</text>
           </view>
-          <view class="text-wrapper_9 flex-col">
+          <view class="text-wrapper_9 flex-col" @click='confirm'>
             <text class="text_24">查询</text>
           </view>
         </view>
@@ -105,23 +95,55 @@
           设置&nbsp;&gt;&nbsp;通用&nbsp;&gt;&nbsp;关于本机&nbsp;&gt;&nbsp;序列号，长按复制即可
         </text>
       </view>
-      <view class="text-wrapper_10 flex-col">
+      <view class="text-wrapper_10 flex-col" :style="{top:multiple?'97.5vw':'66.4vw'}" @click='()=>{$refs.chongzhi.open()}'>
         <text class="text_26">点击充值</text>
       </view>
     </view>
+	<Chongzhi ref='chongzhi'/>
+	<uni-popup ref="submitPop" type="dialog">
+		<uni-popup-dialog mode="base" title='确认'  content="总余额48个Y币，本次将扣除1个 请确认您的序列号/IMEI：rwerwererwerew是否正确，错误将不予退款哦！" @close="close" @confirm="submit">
+		</uni-popup-dialog>
+	</uni-popup>
   </view>
 </template>
 <script>
+	import Chongzhi from "@/pages/chongzhi/index"
 export default {
+	components:{
+		Chongzhi:Chongzhi
+	},
   data() {
     return {
-      constants: {}
+      multiple:false
     };
   },
-  methods: {}
+  methods: {
+	  goBack(){
+	  		  uni.navigateBack({
+	  		  	
+	  		  })
+	  },
+	  goHome(){
+	  		  uni.switchTab({
+	  		  	url:"/pages/shouye/index"
+	  		  })
+	  },
+	  confirm(value){
+		
+		this.$refs.submitPop.open();
+	  },
+	  submit(){
+		  uni.navigateTo({
+		  	url:"/pages/baogaoyemian/index"
+		  })
+	  },
+	  close(){
+		  this.$refs.submitPop.close()
+	  }
+  }
 };
 </script>
 <style lang='css'>
 @import '../common/common.css';
-@import './assets/style/index.rpx.css';
+@import './assets/style/index.response.css';
 </style>

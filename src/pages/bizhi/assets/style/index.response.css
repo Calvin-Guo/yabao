@@ -1,0 +1,267 @@
+.page {
+  position: relative;
+  width: 100vw;
+  height: 216vw;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0.4vw;
+}
+
+
+
+
+.group_1 {
+  background: url(/static/lanhu_xiaofeijilu/SketchPngcb0e9ae7e614d847082c10bf51be45760437b27a8327c35d647f2f2988213b06.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  padding: 3.33vw 4.26vw 0.13vw 4.26vw;
+}
+
+.group_2 {
+  width: 91.47vw;
+  font-size: 4.53vw;
+}
+
+.label_2 {
+  width: 3.07vw;
+  height: 5.34vw;
+  margin: 0.66vw 0 0.4vw 0;
+}
+
+.text_2 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.53vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6.4vw;
+}
+
+.group_3 {
+  margin: 6.4vw 12.26vw 0 2.8vw;
+}
+
+.text_3 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.26vw;
+  font-family: PingFangSC-Semibold;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 6vw;
+}
+
+.image_2 {
+  width: 0.14vw;
+  height: 3.6vw;
+  margin: 1.73vw 0 0.66vw 6.8vw;
+}
+
+.text_4 {
+  overflow-wrap: break-word;
+  color: rgba(11, 11, 11, 1);
+  font-size: 4.26vw;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 6vw;
+  margin-left: 7.4vw;
+}
+
+.group_4 {
+  margin: 2.53vw 0 0 15.46vw;
+  transition: all 0.5s;
+}
+
+.box_3 {
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  width: 10.67vw;
+  height: 0.8vw;
+}
+
+.group_5 {
+  width: 93.6vw;
+  background: url(/static/lanhu_xiaofeijilu/SketchPng4d8f9f6636d6e80ee67ee315a0727d8a7f39452344262d8a9a77f01316b8632b.png) -7.2vw -7.2vw
+    no-repeat;
+  background-size: 108vw 38.66vw;
+  align-self: center;
+  margin-top: 4.4vw;
+  padding: 3.86vw 8.4vw 3.2vw 3.2vw;
+}
+
+.text-group_1 {
+  margin-bottom: 1.07vw;
+}
+
+
+
+
+.list_1 {
+  width: 93.6vw;
+  height: 62vw;
+  align-self: center;
+  margin-top: 3.2vw;
+}
+.list-items_1{
+	position: relative;
+	margin-bottom: 4vw;
+}
+.list-items_1>text{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 0.7vw 1.4vw;
+	font-size: 3.2vw;
+}
+.list-items_1>image{
+	width: 100%;
+}
+	
+.list_2{
+	flex-wrap: wrap;
+	width: 100%;
+	height: 65.34vw;
+	justify-content: space-between;
+}
+.list-items_2{
+	position: relative;
+	margin-bottom: 4vw;
+	width:49%;
+}
+.list-items_2>text{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 0.7vw 1.4vw;
+	font-size: 3.2vw;
+}
+.list-items_2>image{
+	width: 100%;
+}
+
+.group_6 {
+  width: 89.34vw;
+  align-self: center;
+  margin: 4vw 0;
+}
+
+.group_7 {
+  background-color: rgba(235, 237, 240, 1);
+  width: 34.4vw;
+  height: 0.14vw;
+  margin: 2.26vw 0 2vw 0;
+}
+
+.text_13 {
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.4vw;
+  margin-left: 2.27vw;
+}
+
+.group_8 {
+  background-color: rgba(235, 237, 240, 1);
+  width: 34.14vw;
+  height: 0.14vw;
+  margin: 2.26vw 0 2vw 2.53vw;
+}
+
+.image_5 {
+  width: 100vw;
+  height: 9.07vw;
+  margin-top: -0.13vw;
+}
+
+.xfjl{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	transition: all .5s;
+	height: 190vw;
+	overflow-y: scroll;
+}
+.czjl{
+	position: absolute;
+	width: 100vw;
+	bottom: 0;
+	transition: all .5s;
+	height: 190vw;
+	overflow-y: scroll;
+}
+
+.group_9 {
+
+  align-self: center;
+  margin-top: 4.27vw;
+  width: 91.47vw;
+}
+
+
+
+.text-wrapper_1 {
+  margin-right: 6.67vw;
+}
+
+.text_5 {
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 0.96);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin-top: 0.8vw;
+}
+
+.text_6 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.96);
+  font-size: 3.73vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin: 0.8vw 0 0 13.46vw;
+}
+
+.text_7 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.8vw;
+  font-family: Avenir-Heavy;
+  font-weight: 900;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.8vw;
+  margin-left: 8.54vw;
+}
+
+.text_8 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 3.2vw;
+  font-weight: NaN;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 3.2vw;
+  margin: 0.53vw 0 0 0.8vw;
+}
+
+.image_3 {
+  width: 82.94vw;
+  height: 0.14vw;
+  margin-top: 4vw;
+}

@@ -130,7 +130,7 @@
 						src="/static/lanhu_shouye/SketchPngabb270719907028b76fb504dcf5c044f914f6527ab3bd580890c3756e7387a19.png"
 					/>
 				</view>
-				<view class="group_6 flex-row">
+				<view class="group_6 flex-row" @click='goDetail'>
 					<view class="text-wrapper_2 flex-col">
 						<text class="text_6">01</text>
 					</view>
@@ -364,28 +364,7 @@
 		
 		<view v-if="!expand" class="group_16 flex-col"></view>
 		
-		<view class="group_18 flex-col">
-			<view class="list_1 flex-row">
-				<view
-					class="image-text_7 flex-col"
-					v-for="(item, index) in loopData0"
-					:key="index"
-					@click="navigate(item)"
-				>
-					<image
-						class="image_12"
-						referrerpolicy="no-referrer"
-						:src="item.lanhuimage0"
-					/>
-					<text
-						class="text-group_11"
-						:style="{ color: item.lanhufontColor0 }"
-						v-html="item.lanhutext0"
-					></text>
-				</view>
-			</view>
-			
-		</view>
+		
 		<view class="shadow" :class="expand?'shdow-expand':''">
 			
 		</view>
@@ -395,26 +374,7 @@
 	export default {
 		data() {
 			return {
-				loopData0: [
-					{
-						lanhuimage0:
-							"https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngddb1ededffc4db723277efa6ac11ee05642e77d766055dcd7f488202fb348d23",
-						lanhutext0: "联系鸭哥",
-						lanhufontColor0: "rgba(25,31,37,0.4)",
-					},
-					{
-						lanhuimage0:
-							"https://lanhu-dds-backend.oss-cn-beijing.aliyuncs.com/merge_image/imgs/65fdce77baef4cfebf2b8d8241e211a7_mergeImage.png",
-						lanhutext0: "查验首页",
-						lanhufontColor0: "rgba(0,0,0,1)",
-					},
-					{
-						lanhuimage0:
-							"https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnge4478f74f8487dada583f6ffc3c85ee296f9372004d7d69a1f5d0b2cc424a481",
-						lanhutext0: "会员中心",
-						lanhufontColor0: "rgba(25,31,37,0.4)",
-					},
-				],
+				
 				constants: {},
 				active:'查询鉴定',
 				expand:false
@@ -422,14 +382,18 @@
 		},
 		methods: {
 			navigate:(item)=>{
-				
 				if(item.lanhutext0 == '会员中心'){
-					console.log('OK')
 					uni.navigateTo({
 						url:"/pages/wode/index",
 						animationType:'slide-in-right'
 					})
 				}
+			},
+				
+			goDetail(){
+				uni.navigateTo({
+					url:"/pages/chaxunx2fdancichaxun/index"
+				})
 			}
 		},
 	};
