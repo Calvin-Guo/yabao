@@ -85,7 +85,27 @@
 .searchBar{
 	position: absolute;
 	top:0;
-	right:0;
+	transition: all .2s;
+	background: #ffee4d;
+    background-size: 100% 100%;
+    padding: 2.26vw 4.66vw 2.26vw 3.26vw;
+}
+	.searchBar image{
+		width: 25px;
+		height:25px;
+		position: absolute;
+		left:5vw;
+	}
+.searchBar input{
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 38px;
+	transition: all 1s;
+	padding: 1.6vw 2vw 1.6vw 9vw;
+	height:10vw;
+}
+.ok,.cancel{
+	margin-left: 0.5vw;
+	cursor: pointer;
 }
 .group_3 {
   background-color: rgba(255, 238, 77, 1);

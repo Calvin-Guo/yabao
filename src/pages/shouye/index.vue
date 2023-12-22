@@ -9,20 +9,22 @@
 				/>
 			</view>
 			<image
+			@click='showSearch=true'
 				class="label_1"
 				referrerpolicy="no-referrer"
 				src="/static/lanhu_shouye/SketchPngc4a7f048d419357a756dd449b702a496bc0153e4bd611a34e87ca659999081e3.png"
 			/>
 		</view>
-		<!-- <view class="searchBar group_1 flex-row">
-			<input type="text" />
+		<view class="searchBar  flex-row align-center" :style="{right:showSearch?'0':'-100vw'}">
+			<image src="/static/lanhu_shouye/SketchPngc4a7f048d419357a756dd449b702a496bc0153e4bd611a34e87ca659999081e3.png"/>
+			<input type="text" placeholder="请输入要查询的内容"  :style="{width:showSearch?'73.6vw':'10vw'}"/>
 			<view class="button ok">
 				查询
 			</view>	
-			<view class="button cancel">
+			<view class="button cancel" @click='showSearch=false'>
 				取消
 			</view>	
-		</view>	 -->
+		</view>	
 		<view class="group_3 flex-col">
 			<view class="text-wrapper_1 flex-row justify-between">
 				<text class="text_2" :class='active=="查询鉴定"?"text-active":""' @click='active="查询鉴定";expand=false'>查询鉴定</text>
@@ -377,7 +379,8 @@
 				
 				constants: {},
 				active:'查询鉴定',
-				expand:false
+				expand:false,
+				showSearch:false
 			};
 		},
 		methods: {
