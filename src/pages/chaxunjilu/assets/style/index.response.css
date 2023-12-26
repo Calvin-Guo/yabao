@@ -326,3 +326,56 @@
   height: 9.07vw;
   margin-top: -0.13vw;
 }
+.group_6 {
+  width: 300px;
+  background: url(/static/lanhu_chaxunjilu/SketchPng2df77b4c56b04cabb891cdbe34ca20e239efa0ef9f685fa7421a48e330ad14f7.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  justify-content: flex-center;
+  padding: 3.33vw 4.26vw 3.33vw 4.26vw;
+  
+}
+.text_13 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.53vw;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 6.4vw;
+  margin-left: 65px;
+}
+
+.text_14 {
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 6.53vw;
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 4.9vw;
+  margin-left: 50px;
+  
+}
+.drawer_content{
+	padding: 0 3vw;
+}
+.drawer_notice{
+	font-size: 4vw;
+	font-family: PingFangSC, PingFang SC;
+	font-weight: 400;
+	color: #666666;
+	line-height: 45px;
+}
+.drawer_input{
+	background: #EFF1F4;
+	border-radius: 12px;
+	padding: 3.33vw 4.26vw 3.33vw 4.26vw;
+	height: 12vw;
+}
+
+/deep/.uni-date-range{
+	background-color: #EFF1F4 !important;
+	    border-radius: 12px;
+	   
+	    height: 12vw;
+}

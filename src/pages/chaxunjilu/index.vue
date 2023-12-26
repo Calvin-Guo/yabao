@@ -10,7 +10,7 @@
 		  @click="goBack"
         />
         <text class="text_2">历史查询记录</text>
-        <text class="text_3" @click="goHome">返回首页</text>
+        <text class="text_3" @click="showDrawer()">搜索记录</text>
       </view>
       <view class="group_2 flex-row">
         <view class="image-text_1 flex-row justify-between">
@@ -71,7 +71,28 @@
         <view class="block_2 flex-col"></view>
       </view>
     </view>
-    
+    <uni-drawer ref="showRight" mode="right" :mask-click="false" :width="300">
+    			<scroll-view style="height: 100%;" scroll-y="true">
+    				<view class="group_6 flex-row" >
+    				 
+    				  <text class="text_13">请选择检索条件</text>
+    				  <text class="text_14" @click="closeDrawer()">×</text>
+    				</view>
+    				<view class="drawer_content">
+						<div class="drawer_notice">请选择查询类型</div>
+						<uni-data-select
+						      v-model="value"
+						      :localdata="range"
+						      @change="change"
+						    ></uni-data-select>
+						<div class="drawer_notice">请输入查询IMEI/SN</div>
+						<input class="drawer_input"  placeholder="请输入查询IMEI/SN" />
+						<div class="drawer_notice">请选择查询时间</div>
+						<uni-datetime-picker v-model="range" :border='false' type="daterange" @maskClick="maskClick" class="dateTimePicker" />
+					
+					</view>
+    			</scroll-view>
+    		</uni-drawer>
   </view>
 </template>
 <script>
@@ -106,11 +127,15 @@ export default {
 	  		  	
 	  		  })
 	  },
-	  goHome:()=>{
-	  		  uni.switchTab({
-	  		  	url:"/pages/shouye/index"
-	  		  })
+	  search:()=>{
+	  		 this.showDrawer()
 	  },
+	  showDrawer() {
+	  				this.$refs.showRight.open();
+	  			},
+	  			closeDrawer() {
+	  				this.$refs.showRight.close();
+	  			},
 	  // 开始触摸
 	  			drawStart(e) {
 	  				this.clientX = e.changedTouches[0].clientX
@@ -153,7 +178,7 @@ export default {
   }
 };
 </script>
-<style lang='css'>
+<style lang='css' scoped>
 @import '../common/common.css';
 @import './assets/style/index.response.css';
 </style>
