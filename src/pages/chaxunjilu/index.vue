@@ -80,18 +80,20 @@
     				</view>
     				<view class="drawer_content">
 						<div class="drawer_notice">请选择查询类型</div>
-						<uni-data-select
-						      v-model="value"
-						      :localdata="range"
-						      @change="change"
-						    ></uni-data-select>
+						<zxz-uni-data-select v-model="value" filterable :localdata="range" @inputChange="inputChange"
+							@change="change"></zxz-uni-data-select>
 						<div class="drawer_notice">请输入查询IMEI/SN</div>
 						<input class="drawer_input"  placeholder="请输入查询IMEI/SN" />
 						<div class="drawer_notice">请选择查询时间</div>
 						<uni-datetime-picker v-model="range" :border='false' type="daterange" @maskClick="maskClick" class="dateTimePicker" />
-					
+					<view class="flex-row justify-between">
+						<div class="submit">提交</div>
+						<div class="cancel">重置</div>
 					</view>
+					</view>
+					
     			</scroll-view>
+				
     		</uni-drawer>
   </view>
 </template>

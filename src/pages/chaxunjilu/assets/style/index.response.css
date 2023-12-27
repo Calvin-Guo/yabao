@@ -368,14 +368,60 @@
 }
 .drawer_input{
 	background: #EFF1F4;
-	border-radius: 12px;
+	border-radius: 5px;
 	padding: 3.33vw 4.26vw 3.33vw 4.26vw;
 	height: 12vw;
 }
 
-/deep/.uni-date-range{
+/deep/.uni-date-range,/deep/.uni-date-editor--x,/deep/.uni-select{
 	background-color: #EFF1F4 !important;
-	    border-radius: 12px;
-	   
-	    height: 12vw;
+	border-radius: 5px !important;
+	border:none;
+	height: 12vw !important;
+}
+	
+/deep/.uni-datetime-picker--btn , /deep/.uni-calendar-item--multiple .uni-calendar-item--before-checked , 
+/deep/.uni-calendar-item--multiple .uni-calendar-item--after-checked ,/deep/.uni-calendar-item__weeks-box .uni-calendar-item--checked{
+	background-color: #ffee4d;
+}/deep/.uniui-calendar:before{
+	display: none;
+}
+	
+/deep/.uni-date__x-input,/deep/.uni-input-input,/deep/.uni-select__input-placeholder,/deep/.uni-select__input-text{
+	font-size: 16px !important;
+}
+	
+
+/deep/.uni-select__selector{
+	background-color: #EFF1F4;
+	color:#666666;
+	font-size: 16px;
+}
+	
+/deep/.uni-select__selector-item,/deep/.uni-select__selector-empty{
+	font-size: 16px;
+}
+	
+/deep/.uni-select{
+	padding-left: 15px;
+}
+.submit{
+	width:32vw;
+	height: 13vw;
+	line-height: 12.5vw;
+	background: linear-gradient(180deg, #FFEE4D 0%, #FFC700 100%);
+	border-radius: 8px;
+	text-align: center;
+	color:#121212;
+	margin-top: 5vw;
+}
+.cancel{
+	width:32vw;
+	height: 13vw;
+	line-height: 12.5vw;
+	background: linear-gradient(180deg, #545454 0%, #000000 100%);
+	border-radius: 8px;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top: 5vw;
 }
