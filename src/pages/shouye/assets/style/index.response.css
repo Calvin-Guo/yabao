@@ -88,7 +88,7 @@
 	transition: all .2s;
 	background: #ffee4d;
     background-size: 100% 100%;
-    padding: 2.26vw 4.66vw 2.26vw 3.26vw;
+    padding: 2.26vw 2.66vw 2.26vw 3.26vw;
 }
 	.searchBar image{
 		width: 25px;
@@ -99,7 +99,7 @@
 .searchBar input{
 	background-color: rgba(255, 255, 255, 1);
 	border-radius: 38px;
-	transition: all 1s;
+	transition: all .5s;
 	padding: 1.6vw 2vw 1.6vw 9vw;
 	height:10vw;
 }

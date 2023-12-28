@@ -71,7 +71,7 @@
         <view class="block_2 flex-col"></view>
       </view>
     </view>
-    <uni-drawer ref="showRight" mode="right" :mask-click="false" :width="300">
+    <uni-drawer ref="showRight" mode="right" :mask-click="false" >
     			<scroll-view style="height: 100%;" scroll-y="true">
     				<view class="group_6 flex-row" >
     				 
@@ -80,7 +80,7 @@
     				</view>
     				<view class="drawer_content">
 						<div class="drawer_notice">请选择查询类型</div>
-						<zxz-uni-data-select v-model="value" filterable :localdata="range" @inputChange="inputChange"
+						<zxz-uni-data-select v-model="searchType" filterable :localdata="selectList" @inputChange="inputChange"
 							@change="change"></zxz-uni-data-select>
 						<div class="drawer_notice">请输入查询IMEI/SN</div>
 						<input class="drawer_input"  placeholder="请输入查询IMEI/SN" />
@@ -120,13 +120,17 @@ export default {
           slot2: 2
         }
       ],
-      constants: {}
+      constants: {},
+	  selectList:[],
+	  searchType:'',
+	  range:[]
+	  
     };
   },
   methods: {
 	  goBack:()=>{
-	  		  uni.navigateBack({
-	  		  	
+	  		  uni.switchTab({
+	  		  	url:'/pages/wode/index'
 	  		  })
 	  },
 	  search:()=>{
@@ -176,6 +180,12 @@ export default {
 	  				let box_center = this.$refs.box_center[id]
 	  				box_center.$el.style.right = '-10vw'
 	  			},
+					
+				inputChange(){
+				},
+				change(){
+					
+				}
 	
   }
 };

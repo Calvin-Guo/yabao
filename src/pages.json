@@ -73,13 +73,13 @@
 			"backgroundColor": "#ffffff",
 			"height": "15vw",
 			"fontSize": "10px",
-			"iconWidth": "24px",
+			"iconWidth": "30px",
 			"spacing": "3px",
 			
 			"list": [{
 				"pagePath": "pages/shouye/index",
 				"iconPath": "static/lanhu_wode/SketchPng6ce81d6f524e2048827552e6cc63a22bc507efe38c75a7cd63a660accdd7efb4.png",
-				"selectedIconPath": "static/lanhu_shouyex2fxialacaidan/bec7a1cc4e724464b3db4fb402df5114_mergeImage.png",
+				"selectedIconPath": "static/home_active.png",
 				"text": "查验首页",
 	      		"iconfont": { // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
 	       			"text": "\ue102",
@@ -90,7 +90,7 @@
 	      		}
 			}, {
 				"pagePath": "pages/wode/index",
-				"iconPath": "static/lanhu_biaoqianlan/SketchPng1996d68c62906ded8d449a15ab8f1b951759416dd1bb9effb38a142d051dda19.png",
+				"iconPath": "static/admin.png",
 				"selectedIconPath": "static/lanhu_wode/689d22689a504c2a81bfb7806cb7cfcd_mergeImage.png",
 				"text": "会员中心"
 			}]

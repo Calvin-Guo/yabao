@@ -89,7 +89,7 @@
   top: 40.67vw;
   width: 53.07vw;
   height: 12.8vw;
-  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPng888293673ba3c559ff2e60d5890131a217d5565e5cbc79d5c21db9f0f6fdbff0.png)
+  background: url(/static/lanhu_chaxunx2fdancichaxun/tab.png)
     100% no-repeat;
   background-size: 100% 100%;
   padding: 2.93vw 7.46vw 2.53vw 21.33vw;
@@ -106,7 +106,7 @@
   margin-top: 1.34vw;
 }
 .text-wrapper_12 {
-  background: url(/static/lanhu_chaxunx2fpiliangchaxun/SketchPngfdb9a93b709765302ef90a24074bdf9a8c5977927b11fad4839e45124534f03d.png)
+  background: url(/static/lanhu_chaxunx2fdancichaxun/SketchPngfdb9a93b709765302ef90a24074bdf9a8c5977927b11fad4839e45124534f03d.png)
     100% no-repeat;
   background-size: 100% 100%;
   margin: 0 0 3.86vw -0.26vw;
@@ -533,13 +533,13 @@
   background: url(/static/lanhu_chaxunx2fdancichaxun/SketchPngd85bc9d08a4c2007705bc9d4a1c6a90ad3540cd37369022057bf1bc1df57cd1a.png)
     100% no-repeat;
   background-size: 100% 100%;
-  padding: 2.4vw 16.4vw 4.13vw 16.4vw;
+  padding: 4vw 15.4vw 4.13vw 15.4vw;
 }
 
 .text_24 {
   overflow-wrap: break-word;
   color: rgba(255, 255, 255, 1);
-  font-size: 4.26vw;
+  font-size: 5vw;
   font-weight: NaN;
   text-align: left;
   white-space: nowrap;

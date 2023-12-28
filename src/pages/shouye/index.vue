@@ -15,9 +15,9 @@
 				src="/static/lanhu_shouye/SketchPngc4a7f048d419357a756dd449b702a496bc0153e4bd611a34e87ca659999081e3.png"
 			/>
 		</view>
-		<view class="searchBar  flex-row align-center" :style="{right:showSearch?'0':'-100vw'}">
+		<view class="searchBar  flex-row align-center justify-end" :style="{right:showSearch?'0':'-100vw'}">
 			<image src="/static/lanhu_shouye/SketchPngc4a7f048d419357a756dd449b702a496bc0153e4bd611a34e87ca659999081e3.png"/>
-			<input type="text" placeholder="请输入要查询的内容"  :style="{width:showSearch?'73.6vw':'10vw'}"/>
+			<input type="text" placeholder="请输入要查询的内容"  :style="{width:showSearch?'73.6vw':'1vw'}"/>
 			<view class="button ok">
 				查询
 			</view>	

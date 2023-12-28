@@ -327,7 +327,7 @@
   margin-top: -0.13vw;
 }
 .group_6 {
-  width: 300px;
+  width: 70vw;
   background: url(/static/lanhu_chaxunjilu/SketchPng2df77b4c56b04cabb891cdbe34ca20e239efa0ef9f685fa7421a48e330ad14f7.png)
     100% no-repeat;
   background-size: 100% 100%;
@@ -342,7 +342,7 @@
   text-align: left;
   white-space: nowrap;
   line-height: 6.4vw;
-  margin-left: 65px;
+  margin-left: 16vw;
 }
 
 .text_14 {
@@ -353,7 +353,7 @@
   text-align: left;
   white-space: nowrap;
   line-height: 4.9vw;
-  margin-left: 50px;
+  margin-left: 10vw;
   
 }
 .drawer_content{
@@ -364,7 +364,7 @@
 	font-family: PingFangSC, PingFang SC;
 	font-weight: 400;
 	color: #666666;
-	line-height: 45px;
+	line-height: 11vw;
 }
 .drawer_input{
 	background: #EFF1F4;
@@ -372,7 +372,9 @@
 	padding: 3.33vw 4.26vw 3.33vw 4.26vw;
 	height: 12vw;
 }
-
+/deep/.uni-drawer__content{
+	width: 70vw !important;
+}
 /deep/.uni-date-range,/deep/.uni-date-editor--x,/deep/.uni-select{
 	background-color: #EFF1F4 !important;
 	border-radius: 5px !important;
@@ -387,40 +389,54 @@
 	display: none;
 }
 	
-/deep/.uni-date__x-input,/deep/.uni-input-input,/deep/.uni-select__input-placeholder,/deep/.uni-select__input-text{
-	font-size: 16px !important;
+/deep/.uni-date__x-input,/deep/.uni-input-input,/deep/.uni-select__input-placeholder,/deep/.uni-select__input-text,/deep/.input-placeholder{
+	font-size: 3.8vw !important;
 }
-	
+		
+	/deep/.input-placeholder{
+		height: 100%;
+		line-height: 5vw;
+	}
 
 /deep/.uni-select__selector{
 	background-color: #EFF1F4;
 	color:#666666;
-	font-size: 16px;
+	font-size: 3.8vw;
 }
 	
 /deep/.uni-select__selector-item,/deep/.uni-select__selector-empty{
-	font-size: 16px;
+	font-size: 3.8vw
 }
 	
 /deep/.uni-select{
-	padding-left: 15px;
+	padding-left:  3.8vw;
+}
+/deep/.uni-select__input-box{
+	height: 7vw !important;
+}
+/deep/.uni-select__input-box>uni-text{
+	font-size: 3.5vw !important;
+}
+/deep/.uni-select__selector-empty{
+	line-height: 8vw !important;
+	height: 8vw !important;
 }
 .submit{
-	width:32vw;
+	width:30vw;
 	height: 13vw;
 	line-height: 12.5vw;
 	background: linear-gradient(180deg, #FFEE4D 0%, #FFC700 100%);
-	border-radius: 8px;
+	border-radius: 2vw;
 	text-align: center;
 	color:#121212;
 	margin-top: 5vw;
 }
 .cancel{
-	width:32vw;
+	width:30vw;
 	height: 13vw;
 	line-height: 12.5vw;
 	background: linear-gradient(180deg, #545454 0%, #000000 100%);
-	border-radius: 8px;
+	border-radius: 2vw;
 	text-align: center;
 	color:#FFFFFF;
 	margin-top: 5vw;
